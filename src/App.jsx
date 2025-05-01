@@ -1,12 +1,11 @@
-import React from 'react'
+import React from "react";
+import WeatherApp from "./components/WeatherApp.jsx";
 
 export default function App() {
-  const API_KEY=process.env.API_KEY;
   return (
     <>
-    <div>App</div>
+      <h1>My Weather App</h1>
+      <WeatherApp />
     </>
-    
-  )
+  );
 }
-console.log(process.env.API_KEY);
